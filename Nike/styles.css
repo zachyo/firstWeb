@@ -1,0 +1,145 @@
+nav,
+body,
+footer { display: block;
+}
+
+body {
+    line-height: 1;
+    margin: 0;
+    background-image: url(bckg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+label {
+    font-size: 38px;
+    font-weight: bolder;
+}
+
+.container {
+    display: block;
+    width: 100%;
+    padding: 2%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%
+}
+  
+.row::after {
+    display: block;
+    clear: both;
+    content: "";
+}
+
+.secondBg {
+    margin: 150px 350px;
+    padding: 30px 28px 17px 45px;
+    height: 450px;
+    background-image: url(nikebackground.jpg) ;
+    border-radius: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* NavBar */
+
+nav {
+    background-color: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+ul.topnav li {
+    list-style: none;
+    float: right;
+    font-size: 13px;
+
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+ul.topnav li.topnav-left {
+    float: left;
+}
+
+ul.topnav li a img {
+    width : 56px;
+    height: 14px;
+    padding: 0px;
+}
+
+ul.topnav li a {
+    display: block;
+    min-height: 16px;
+    text-transform: uppercase;
+    padding: 16px;
+    text-decoration: none;
+    text-align: center;
+    color: #666;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+ul.topnav li a:hover {
+    background-color: white;
+    color: #ff66ed;
+}
+
+ul.topnav li.dropdownIcon {
+    display: none;
+}
+
+ul.topnav li:nth-child(6) {
+    color: #ff66ed;
+}    
+
+/* BODY */
+
+.col-6 {
+    width: 50%;
+}
+
+.col-6 .leftHandSide {
+    padding: 17px;
+}
+
+.name {
+    margin-top: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 27px;
+}
+
+.buy {
+    margin-top: 35px;
+    padding: 10px 30px;
+    background: linear-gradient(to right, #fe0ec4, #ff66ed);
+    border: none;
+    border-radius: 2px;
+}
+
+.gist {
+    line-height: 1.4;
+    font-size: 13px;
+}
+
+.buy a {
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+}
+img.socials {
+    margin-top: 70px;
+    width: 23%;
+}
+

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>My First Webpage</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <nav>
+            <!-- <img src="Logo1-instructorHQ.png"> -->
+            <ul class="topnav" id="dropdownClick">
+                <li><a href=""><img src="Logo1-instructorHQ.png"></a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#about">About</a></li>
+                <li class="topnav-right"><a href="#signup">Sign Up</a></li>
+                <li class="topnav-right"><a href="#signin">Sign In</a></li>
+                <li class="dropdownIcon"><a href="javascript:void(0)" onclick="dropdownMenu();">☰</a></li>
+            </ul>
+        </nav>
+
+        <div class="container" id="containerfirst">
+            <div class="row">
+                <div class="col-6">
+                    <div class="leftSide-col">
+                    <h1 class="left header">Crazy Radness</h1>
+                    <h1 class="left header">Made for Developers</h1>
+                        <form>
+                                <h2><span id="username"></span></h2>
+                                <input id="placeH" class="inputbox" placeholder="Username" type="text" required="unique" onclick="removeP();">
+                                <h2>Password</h2>
+                                <input class="inputbox" placeholder="" name="password" type="password" required>
+                                <!-- <input class="inputbox" placeholder="" name="password" type="password" required> --><br>
+                                <input class="check" type="checkbox" name="password">Remember Me.
+                                <button class="loginbutton" href="Mypage">Login</button>
+                            	<h3><a class="newacc" href="#newacc">Don't have an account? Sign Up here</a></h3>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="rightSide-col">
+                        <div class="videoContainer">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/rYeSA1vgIUE?list=PLpZBns8dFbgxSG5U953qZHQ7Q0DHdM8dm" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <header>
+                <h1 class="section2Header">The Standards of Awesomeness</h1>
+            </header>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <div class="box">
+                        <div class="icon">
+                            <img src="devIcon.png">
+                        </div>
+                        <label>Chat with Me</label>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit donec consectetur semper nunc in molestie. 
+                            Sed velit lectus, porttitor eu convallis sit amet, semper eget mauris.</p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="box">
+                        <div class="icon">
+                            <img src="devIcon.png">
+                        </div>
+                        <label>Learn to code</label>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit donec consectetur semper nunc in molestie. 
+                            Sed velit lectus, porttitor eu convallis sit amet, semper eget mauris.</p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="box">
+                        <div class="icon">
+                            <img src="devIcon.png">
+                        </div>
+                        <label>Build an Empire</label>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit donec consectetur semper nunc in molestie. 
+                            Sed velit lectus, porttitor eu convallis sit amet, semper eget mauris.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <button class="learnMore">Learn More</button>
+                </div>
+            </div>
+        </div>
+        <p></p>
+        <hr>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-7">
+                <article>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit donec consectetur semper nunc in molestie. 
+                        Sed velit lectus, porttitor eu convallis sit amet, semper eget mauris.Lorem ipsum dolor sit amet, consectetur adipiscing elit donec consectetur semper nunc in molestie. 
+                        Sed velit lectus, porttitor eu convallis sit amet, semper eget mauris. 
+                    </p>
+                </article>
+            </div>
+            <div class="col-5">
+                <div class="slopeIcon">
+                    <img src="iOS_Slope.png">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footsy">
+            <div class="row">
+                <div class="col-3 mobileStack">
+                    <h1>Company</h1>
+                    <ul>
+                        <li>About</li>
+                        <li>Blogs</li>
+                        <li>Career</li>
+                    </ul>
+                </div>
+                <div class="col-3 mobileStack">
+                    <h1>Products</h1>
+                    <ul>
+                        <li>Computers</li>
+                        <li>Ipads</li>
+                        <li>Iphones</li>
+                    </ul>
+                </div>
+                <div class="col-3 mobileStack">
+                    <h1>Learn More</h1>
+                    <ul>
+                        <li>Developers</li>
+                        <li>Designers</li>
+                        <li>Hackers</li>
+                    </ul>
+                </div>
+                <div class="col-3 mobileStack">
+                    <h1>Support</h1>
+                    <ul>
+                        <li>Help</li>
+                        <li>Q/A</li>
+                        <li>Contact</li>
+                    </ul>
+                </div>
+            </div>
+    </footer>
+
+
+
+        <script src="./rel.js"></script>
+
+
+    </body>
+
+</html>
